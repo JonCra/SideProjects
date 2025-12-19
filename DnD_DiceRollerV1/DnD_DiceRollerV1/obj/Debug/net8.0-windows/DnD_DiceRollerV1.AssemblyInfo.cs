@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DnD_DiceRollerV1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98dcb29820600c836371ab3e24760c4c6f2638d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+668975907f609995d7eb56e13891db0ab114a553")]
 [assembly: System.Reflection.AssemblyProductAttribute("DnD_DiceRollerV1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DnD_DiceRollerV1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\cramk\\OneDrive\\Documents\\GitHub\\SideProjects\\DnD_DiceRollerV1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC410DA3-A072-41F3-996C-8D455639F6AE}|DnD_DiceRollerV1\\DnD_DiceRollerV1.csproj|c:\\users\\cramk\\onedrive\\documents\\github\\sideprojects\\dnd_dicerollerv1\\dnd_dicerollerv1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC410DA3-A072-41F3-996C-8D455639F6AE}|DnD_DiceRollerV1\\DnD_DiceRollerV1.csproj|solutionrelative:dnd_dicerollerv1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC410DA3-A072-41F3-996C-8D455639F6AE}|DnD_DiceRollerV1\\DnD_DiceRollerV1.csproj|c:\\users\\cramk\\onedrive\\documents\\github\\sideprojects\\dnd_dicerollerv1\\dnd_dicerollerv1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC410DA3-A072-41F3-996C-8D455639F6AE}|DnD_DiceRollerV1\\DnD_DiceRollerV1.csproj|solutionrelative:dnd_dicerollerv1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC410DA3-A072-41F3-996C-8D455639F6AE}|DnD_DiceRollerV1\\DnD_DiceRollerV1.csproj|C:\\Users\\cramk\\OneDrive\\Documents\\GitHub\\SideProjects\\DnD_DiceRollerV1\\dnd_dicerollerv1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BC410DA3-A072-41F3-996C-8D455639F6AE}|DnD_DiceRollerV1\\DnD_DiceRollerV1.csproj|solutionrelative:dnd_dicerollerv1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BC410DA3-A072-41F3-996C-8D455639F6AE}|DnD_DiceRollerV1\\DnD_DiceRollerV1.csproj|c:\\users\\cramk\\onedrive\\documents\\github\\sideprojects\\dnd_dicerollerv1\\dnd_dicerollerv1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC410DA3-A072-41F3-996C-8D455639F6AE}|DnD_DiceRollerV1\\DnD_DiceRollerV1.csproj|solutionrelative:dnd_dicerollerv1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC410DA3-A072-41F3-996C-8D455639F6AE}|DnD_DiceRollerV1\\DnD_DiceRollerV1.csproj|c:\\users\\cramk\\onedrive\\documents\\github\\sideprojects\\dnd_dicerollerv1\\dnd_dicerollerv1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,20 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cramk\\OneDrive\\Documents\\GitHub\\SideProjects\\DnD_DiceRollerV1\\DnD_DiceRollerV1\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "DnD_DiceRollerV1\\MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\cramk\\OneDrive\\Documents\\GitHub\\SideProjects\\DnD_DiceRollerV1\\DnD_DiceRollerV1\\MainForm.Designer.cs",
-              "RelativeToolTip": "DnD_DiceRollerV1\\MainForm.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAmwE4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\cramk\\OneDrive\\Documents\\GitHub\\SideProjects\\DnD_DiceRollerV1\\DnD_DiceRollerV1\\MainForm.cs",
+              "RelativeDocumentMoniker": "DnD_DiceRollerV1\\MainForm.cs",
+              "ToolTip": "C:\\Users\\cramk\\OneDrive\\Documents\\GitHub\\SideProjects\\DnD_DiceRollerV1\\DnD_DiceRollerV1\\MainForm.cs",
+              "RelativeToolTip": "DnD_DiceRollerV1\\MainForm.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAASwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T05:00:35.788Z",
+              "WhenOpened": "2025-12-19T05:07:55.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cramk\\OneDrive\\Documents\\GitHub\\SideProjects\\DnD_DiceRollerV1\\DnD_DiceRollerV1\\MainForm.cs",
               "RelativeDocumentMoniker": "DnD_DiceRollerV1\\MainForm.cs",
@@ -52,39 +52,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T04:52:16.946Z",
               "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "515d1a6b-9818-486f-bfe8-140547f67004",
-        "Display": 0,
-        "X": 2179,
-        "Y": 239,
-        "Width": 800,
-        "Height": 600,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\cramk\\OneDrive\\Documents\\GitHub\\SideProjects\\DnD_DiceRollerV1\\DnD_DiceRollerV1\\MainForm.cs",
-              "RelativeDocumentMoniker": "DnD_DiceRollerV1\\MainForm.cs",
-              "ToolTip": "C:\\Users\\cramk\\OneDrive\\Documents\\GitHub\\SideProjects\\DnD_DiceRollerV1\\DnD_DiceRollerV1\\MainForm.cs",
-              "RelativeToolTip": "DnD_DiceRollerV1\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\cramk\\OneDrive\\Documents\\GitHub\\SideProjects\\DnD_DiceRollerV1\\DnD_DiceRollerV1\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "DnD_DiceRollerV1\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\cramk\\OneDrive\\Documents\\GitHub\\SideProjects\\DnD_DiceRollerV1\\DnD_DiceRollerV1\\MainForm.Designer.cs",
+              "RelativeToolTip": "DnD_DiceRollerV1\\MainForm.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwIcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T05:07:55.192Z",
+              "WhenOpened": "2025-12-19T05:00:35.788Z",
               "EditorCaption": ""
             }
           ]

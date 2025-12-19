@@ -19,6 +19,13 @@ namespace DnD_DiceRollerV1
             // Open "About" form
         }
 
-        // Event Handlers ----------------       
+        private void DiceRollButton_Click(object sender, EventArgs e)
+        {
+            // Roll dice based on modifiers and inputs
+            // Only allow roll when character skills are populated; Redundantly display in text boxes
+
+        }
+
+        // Event Handlers ----------------
     }
 }
