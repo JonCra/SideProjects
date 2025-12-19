@@ -1,6 +1,6 @@
 ﻿namespace DnD_DiceRollerV1
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,12 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            RollButton = new Button();
+            ExitButton = new Button();
+            SuspendLayout();
+            // 
+            // RollButton
+            // 
+            RollButton.Location = new Point(478, 387);
+            RollButton.Name = "RollButton";
+            RollButton.Size = new Size(75, 23);
+            RollButton.TabIndex = 0;
+            RollButton.Text = "Roll Dice";
+            RollButton.UseVisualStyleBackColor = true;
+            RollButton.Click += RollButton_Click;
+            // 
+            // ExitButton
+            // 
+            ExitButton.Location = new Point(661, 387);
+            ExitButton.Name = "ExitButton";
+            ExitButton.Size = new Size(75, 23);
+            ExitButton.TabIndex = 1;
+            ExitButton.Text = "E&xit";
+            ExitButton.UseVisualStyleBackColor = true;
+            ExitButton.Click += ExitButton_Click;
+            // 
+            // MainForm
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(ExitButton);
+            Controls.Add(RollButton);
+            Name = "MainForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Dice Roller";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button RollButton;
+        private Button ExitButton;
     }
 }
