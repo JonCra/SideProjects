@@ -14,15 +14,11 @@ namespace DnD_DiceRollerV1
 
         }
 
-        // Event Handlers ----------------
-        private void RollButton_Click(object sender, EventArgs e)
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            // Open "About" form
         }
 
-        private void ExitButton_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-        }
+        // Event Handlers ----------------       
     }
 }

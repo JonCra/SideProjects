@@ -28,46 +28,79 @@
         /// </summary>
         private void InitializeComponent()
         {
-            RollButton = new Button();
-            ExitButton = new Button();
+            menuStrip1 = new MenuStrip();
+            fileToolStripMenuItem = new ToolStripMenuItem();
+            helpToolStripMenuItem = new ToolStripMenuItem();
+            diceRollerToolStripMenuItem = new ToolStripMenuItem();
+            characterStatsToolStripMenuItem = new ToolStripMenuItem();
+            aboutToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
-            // RollButton
+            // menuStrip1
             // 
-            RollButton.Location = new Point(478, 387);
-            RollButton.Name = "RollButton";
-            RollButton.Size = new Size(75, 23);
-            RollButton.TabIndex = 0;
-            RollButton.Text = "Roll Dice";
-            RollButton.UseVisualStyleBackColor = true;
-            RollButton.Click += RollButton_Click;
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, helpToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.TabIndex = 2;
+            menuStrip1.Text = "menuStrip1";
             // 
-            // ExitButton
+            // fileToolStripMenuItem
             // 
-            ExitButton.Location = new Point(661, 387);
-            ExitButton.Name = "ExitButton";
-            ExitButton.Size = new Size(75, 23);
-            ExitButton.TabIndex = 1;
-            ExitButton.Text = "E&xit";
-            ExitButton.UseVisualStyleBackColor = true;
-            ExitButton.Click += ExitButton_Click;
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { diceRollerToolStripMenuItem, characterStatsToolStripMenuItem });
+            fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            fileToolStripMenuItem.Size = new Size(37, 20);
+            fileToolStripMenuItem.Text = "&File";
+            // 
+            // helpToolStripMenuItem
+            // 
+            helpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { aboutToolStripMenuItem });
+            helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            helpToolStripMenuItem.Size = new Size(44, 20);
+            helpToolStripMenuItem.Text = "&Help";
+            // 
+            // diceRollerToolStripMenuItem
+            // 
+            diceRollerToolStripMenuItem.Name = "diceRollerToolStripMenuItem";
+            diceRollerToolStripMenuItem.Size = new Size(180, 22);
+            diceRollerToolStripMenuItem.Text = "Dice Roller";
+            // 
+            // characterStatsToolStripMenuItem
+            // 
+            characterStatsToolStripMenuItem.Name = "characterStatsToolStripMenuItem";
+            characterStatsToolStripMenuItem.Size = new Size(180, 22);
+            characterStatsToolStripMenuItem.Text = "Character Stats";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            aboutToolStripMenuItem.Size = new Size(180, 22);
+            aboutToolStripMenuItem.Text = "About";
+            aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(ExitButton);
-            Controls.Add(RollButton);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Dice Roller";
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
-
-        private Button RollButton;
-        private Button ExitButton;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem fileToolStripMenuItem;
+        private ToolStripMenuItem helpToolStripMenuItem;
+        private ToolStripMenuItem diceRollerToolStripMenuItem;
+        private ToolStripMenuItem characterStatsToolStripMenuItem;
+        private ToolStripMenuItem aboutToolStripMenuItem;
     }
 }
